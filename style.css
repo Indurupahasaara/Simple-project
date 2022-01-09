@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+
+    background: url(pexels-photo-531880.jpeg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 100px;
+    widht: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.logo{
+    width:100px;
+    height: 90px ;
+    padding: 10px 10px ;
+}
+.navbar ul{
+    float: right;
+    margin: 20px;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.navbar li a{
+    text-decoration:center;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+    display: block;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 2px;
+}
+.wrapper .center{
+    position: absolute;
+    top:50%;
+    left:60%;
+    transform: translate(-50%,-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+.wrapper .center.Welcome{
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    transform: translate(-50%,-50%);
+}
+.center h1{
+    font size: 100px;
+    color:red;
+    font weight:bold;
+    width:900px;
+    text align:center;
+}
+.center h2{
+    font size: 100px;
+    color:white;
+    font weight:bold;
+    width:885px;
+    margin-top 10px;
+    text align:center;
+    font-family:arial;
+}
+.center h3{
+    font size: 100px;
+    color:purple light;
+    font weight:bold;
+    width:885px;
+    margin-top 10px;
+    text align:center;
+    font-family:arial;
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+    text-align:center;
