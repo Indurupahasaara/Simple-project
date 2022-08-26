@@ -4,14 +4,13 @@
 }
 
 .wrapper{
-
     background: url(pexels-photo-531880.jpeg) no-repeat;
     background-size: cover;
     height: 100vh;
 }
 .navbar{
     height: 100px;
-    widht: 100%;
+    width: 100%;
     background: rgba(0,0,0,0.4);
 }
 
@@ -62,14 +61,14 @@
     transform: translate(-50%,-50%);
 }
 .center h1{
-    font-size: 100px;
+    font-size: 50px;
     color:red;
     font-weight:bold;
     width:900px;
     text-align:center;
 }
 .center h2{
-    font-size: 100px;
+    font-size: 50px;
     color:white;
     font-weight:bold;
     width:885px;
@@ -78,7 +77,7 @@
     font-family:arial;
 }
 .center h3{
-    font-size: 100px;
+    font-size: 50px;
     color:purple light;
     font-weight:bold;
     width:885px;
